@@ -79,13 +79,37 @@ Loan approval is a critical decision-making process for financial institutions. 
 
 * Test Accuracy: **~83.3%**
 
+---
+
 ## 🧪 Usage
 
-* Upload Loan Prediction Dataset.csv to your Colab session
+* Upload *Loan Prediction Dataset.csv* to your Colab session
 
 * Run the notebook cells sequentially
 
 * The notebook handles all preprocessing, training, and prediction steps
 
 * Use the predictive system to test custom inputs
+
+---
+
+## 🚧 Limitations
+
+* Model is trained and evaluated only on the given dataset
+
+* May not generalize well to real-world loan applications due to dataset bias
+
+* Predictions are limited to the features provided
+
+---
+
+## 🔮 Future Improvements
+
+* Hyperparameter tuning for SVM
+
+* Try advanced models like Random Forest or XGBoost
+
+* Use feature engineering and scaling for better performance
+
+* Train on larger and more diverse datasets
 
